@@ -8,8 +8,6 @@ const app = express();
 
 app.get('/usuario', (req, res) => {
 
-
-
     let desde = req.query.desde || 0;
     desde = Number(desde);
 

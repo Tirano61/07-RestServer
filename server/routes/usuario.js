@@ -88,6 +88,7 @@ app.put('/usuario/:id', [ verificaToken, verificaAdminRole ] ,(req, res) => {
 
 });
 
+
 app.delete('/usuario/:id', [ verificaToken, verificaAdminRole ] ,(req, res) => {
 
     let id = req.params.id;
